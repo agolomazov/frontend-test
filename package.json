@@ -1,0 +1,19 @@
+{
+  "name": "frontend-dev.project",
+  "version": "1.0.0",
+  "description": "В данном небольшом проекте мы будем тестировать окружение современного frontend-разработчика.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch"
+  },
+  "author": "Anton Golomazov",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.10.2",
+    "webpack": "^1.13.3"
+  }
+}
