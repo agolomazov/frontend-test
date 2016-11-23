@@ -7,11 +7,11 @@ module.exports = {
         filename: 'bundle.js'
     },
 
-    modules: {
+    module: {
         loaders: [
             {
                 test: /\.scss$/,
-                loader: 'style-loader!css-loader|sass-loader'
+                loaders: ["style", "css", "sass"]
             },
             {
                 test: /\.js$/,
