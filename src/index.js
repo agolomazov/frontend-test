@@ -1,6 +1,6 @@
 var $ = require('jquery');
 var str = require('./constant');
-require('./main.scss');
+require('./sass');
 
 var App = function() {
     var htmlstr = str;

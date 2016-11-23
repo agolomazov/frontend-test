@@ -4,7 +4,6 @@
   "description": "В данном небольшом проекте мы будем тестировать окружение современного frontend-разработчика.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "eslint": "eslint ./src"
   },
