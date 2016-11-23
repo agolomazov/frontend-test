@@ -1,5 +1,6 @@
 var $ = require('jquery');
 var str = require('./constant');
+require('./main.css');
 
 var App = function() {
     var htmlstr = str;
